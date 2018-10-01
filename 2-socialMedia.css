@@ -1,0 +1,31 @@
+body {
+    background: url("3-assets/shannon-hope-589349-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -10;
+}
+
+.jk {
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    
+
+}
+
+.lol {
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    top: 444px;
+    right: 10px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+input:placeholder {
+    visibility: 67%;
+}
