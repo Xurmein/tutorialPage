@@ -17,7 +17,7 @@ a{
  
 header{
     display: flex;
-    background: #2EF7AB; 
+    background: #F4ECE2; 
     height: 130px;
     width: 100%;   
     margin: auto;
@@ -70,7 +70,7 @@ nav ul{
 }
 
 #jsTitle1{
-    color: #F4ECE2;
+    color: #2EF7AB; ;
     position: relative;
     width: fit-content;
     margin: auto;
@@ -82,12 +82,13 @@ nav ul{
 
 section{
     width: 80%;
+    overflow: hidden;
     height: 90%;
     position: relative;
     top: 15px;
     float: center;
     margin: auto;
-    background: #99A5A0;
+    background:  #2EF7AB;;
     border: black solid 4px;
     border-radius: 20px;  
 }
@@ -101,7 +102,7 @@ section{
     align-content: center;
     width: 30%;
     font-family: 'Geostar', serif;
-    color:  #F4ECE2;
+    color:  #99A5A0;
     border-bottom: #2EF7AB solid 3px;
     border-left: #2EF7AB dashed 3px;
     border-right: #2EF7AB dashed 3px;
@@ -113,12 +114,12 @@ section{
     text-align: left;
     width: 30%;
     font-family: 'Alegreya Sans', sans-serif;
-    color: skyblue;
+    color:lemonchiffon;
     border-left: #2EF7AB dashed 3px;
     border-right: #2EF7AB dashed 3px;
     margin: auto;
     padding: 0;
-    overflow: hidden;
+    align-content: top;
 }
 
 footer{

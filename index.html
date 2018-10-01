@@ -44,9 +44,12 @@
                 <tr class="writeUp">
                     <td>
                         <p>Put simply, functions in JavaScript make your code <strong>do</strong> stuff. What it is that a function does, precisely, depends on the code you write within your function.</p>
-                        <p>To write a function in JavaScript, the first step is to write <pre><code>function</code></pre> at the start of your line of code. This is called "declares" that the text following <code><pre>function</pre></code> as a function. Next, the function must be named using camel casing, and the first character of the function's name must be lowercase, a $, or a _. After naming the function, we must include a set of parentheses "()" immediately after the last character in the name. Parameters, aka params, which are variables declared elsewhere in our code, need to be included within those parentheses, separated by commas, if and when our function utilizes the data from said variables. Our last step is to add curly braces after the parentheses, hit enter on the keyboard, and write the code our function executes within the curly braces. After the function is declared and defined, we can call the function later in our code to re-use it.</p>
+                        <p>To write a function in JavaScript, the first step is to write <code>function</code> at the start of your line of code. This is called "declares" that the text following <code><pre>function</pre></code> as a function. Next, the function must be named using camel casing, and the first character of the function's name must be lowercase, a $, or a _. After naming the function, we must include a set of parentheses "()" immediately after the last character in the name. Parameters, aka params, which are variables declared elsewhere in our code, need to be included within those parentheses, separated by commas, if and when our function utilizes the data from said variables. Our last step is to add curly braces after the parentheses, hit enter on the keyboard, and write the code our function executes within the curly braces. After the function is declared and defined, we can call the function later in our code to re-use it.</p>
                         <p>Here's an example to look at for yourself:</p>
-                        <p><code><pre>var x = 3; var y = 1;
+                        <p><code><pre>
+                            var x = 3; 
+                            var y = 1;
+
                             //declaration   //params
                             function myFunc(x, y){
                                 y + x = x;
@@ -57,15 +60,20 @@
                      </td>
                     <td>
                         <p>There are a variety of loops we can execute using JavaScript, but the most basic is the "for loop." Here's an example that I will explain below:</p>
-                        <p><pre><code>var b; for(b = 0; b < 10; b++);
+                        <p><pre><code>
+                            var b;
+                             for(b = 0; b < 10; b++);
                         </code></pre></p>
-                        <p>We start the loop by declaring it with <pre><code>for</code></pre>. Then, within the parntheses that follow, we describe the manner in which the loop operates. In the case above, the code would roughly translate to English as so: "for the variable b, which starts at 0, while b is less than (but not equal to) 10, add 1 to b until it equals or exceeds 10." Thus, the output of our example would be the numbers 1 through 9.</p>
+                        <p>We start the loop by declaring it with <code>for</code>. Then, within the parntheses that follow, we describe the manner in which the loop operates. In the case above, the code would roughly translate to English as so: "for the variable b, which starts at 0, while b is less than (but not equal to) 10, add 1 to b until it equals or exceeds 10." Thus, the output of our example would be the numbers 1 through 9.</p>
                     </td>
                     <td>
                         <p>Conditionals, which we might also call "if" or "if-else" statements, are a special sort of function in JavaScript that are used when we want to compare variables within our code, or create a branching system of code that responds/changes/adapts circumstantially.</p>
-                        <p>We start a conditional by declaring it with <pre><code>if</code></pre>, followed by parentheses containing the variables we want to compare, and the manner in which we compare them. After the "()", we include a set a curly braces, hit enter, and declare the action we want our code to take should if our code meets the conditions cantained within the ().  We can include multiple conditions to test in an if statement by following the closing brace with <pre><code>else</code></pre> or an <pre><code>else if</code></pre>.</p>
+                        <p>We start a conditional by declaring it with <code>if</code>, followed by parentheses containing the variables we want to compare, and the manner in which we compare them. After the "()", we include a set a curly braces, hit enter, and declare the action we want our code to take should if our code meets the conditions cantained within the ().  We can include multiple conditions to test in an if statement by following the closing brace with <pre><code>else</code></pre> or an <pre><code>else if</code></pre>.</p>
                         <p>Here's an example:</p>
-                        <p><pre><code>var e = "see"; var f = "saw"; if(e != f){
+                        <p><pre><code>
+                            var e = "see"; 
+                            var f = "saw"; 
+                            if(e != f){
                             console.log("This playground is dangerous!");
                         } else if(e == f){
                             console.log("Let's go on the swings!");
